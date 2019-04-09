@@ -9,7 +9,7 @@ Using any frontend framework of your choice, build a star wars directory using [
 - For each listing, user can search using name to filter the list
 - User should be able to filter based on gender in the people section (male, female, robot)
 
-Note that for each listing, you can decide to show all data at once based on your preference hence there wouldn't be need for a view showing full details of selected list item.
+Note that for each listing, you can decide to show all data at once based on your preference (i.e rather than having each list itme for people showing just name, birth and gender, full details can be shown if it can be neatly formatted) hence there wouldn't be need for a view showing full details of selected list item.
 
 ## General requirements
 A single page application using a modern JS library/framework (Vue/React/Angular) featuring:
