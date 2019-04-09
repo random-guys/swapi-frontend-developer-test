@@ -6,7 +6,7 @@ Using any frontend framework of your choice, build a star wars directory using [
 - User can view a list of planets, list item should contain name, temperature and population.
 - User can view a list of starships, list item should contain name, model and cargo capacity.
 - User can see full details of selected person, planet or starship. You can ignore data containing links in the JSON response.
-- For each list section, user can search using name to filter the list
+- For each listing, user can search using name to filter the list
 - User should be able to filter based on gender in the people section (male, female, robot)
 
 Note that for each listing, you can decide to show all data at once based on your preference hence there wouldn't be need for a view showing full details of selected list item.
