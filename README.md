@@ -1,5 +1,5 @@
 # Front-end Developer Test
-Using any frontend framework of your choice, build a star wars directory using SWAPI[https://swapi.co/], which has all api details required for the applicatoion.
+Using any frontend framework of your choice, build a star wars directory using `[SWAPI](https://swapi.co/)` , which has all api details required for the applicatoion.
 
 ## Functional requirements
 - User can view a list of people (humans & robots), planets, starships & species
