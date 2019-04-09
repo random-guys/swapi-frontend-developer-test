@@ -30,7 +30,4 @@ The following items will earn you bonus points. They are not requirements, the c
 - Use Vue which is our frontend stack
 - Include animation / Micro-interactions
 
-## Submission
-When you feel you're ready to submit, simply reply to the email sent  share a link to your github repo with a member of the product org team; or whoever first contacted you. Please make sure your repo is set to public otherwise we won't be able to see all your hard work! 
-
 Finally, we'd like to say *Good luck! And have fun!*
