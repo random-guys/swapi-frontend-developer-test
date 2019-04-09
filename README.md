@@ -2,12 +2,14 @@
 Using any frontend framework of your choice, build a star wars directory using [SWAPI](https://swapi.co/), which has all api details required for the applicatoion.
 
 ## Functional requirements
-- User can view a list of people (humans & robots), planets and starships. List item should contain full name, birth year and gender
+- User can view a list of people (humans & robots). List item should contain full name, birth year and gender
 - User can view a list of planets, list item should contain name, temperature and population.
 - User can view a list of starships, list item should contain name, model and cargo capacity.
 - User can see full details of selected person, planet or starship. You can ignore data containing links in the JSON response.
-- For each list section, user can filter search using name
+- For each list section, user can search using name to filter the list
 - User should be able to filter based on gender in the people section (male, female, robot)
+
+Note that for each listing, you can decide to show all data at once based on your preference hence there wouldn't be need for a view showing full details of selected list item.
 
 ## General requirements
 A single page application using a modern JS library/framework (Vue/React/Angular) featuring:
