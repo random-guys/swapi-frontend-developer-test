@@ -29,7 +29,7 @@ A single page application using a modern JS library/framework (Vue/React/Angular
 
 ## Extra Bonus Points
 The following items will earn you bonus points. They are not requirements, the challenge is 100% completeable without them. 
-- Use Vue which is our frontend stack
+- Use Vue/React which is our frontend stack
 - Include animation / Micro-interactions
 
 Finally, we'd like to say *Good luck! And have fun!*
