@@ -16,9 +16,10 @@ A single page application using a modern JS library/framework (Vue/React/Angular
 - A visually pleasing experience, you don’t have to be a designer but you must have put an effort into making this look good
 - A "componentized" approach, split your code into small building blocks, showcase your clean architecture skills.
 - CSS can be written using PostCSS, SASS, LESS or similar higher-level language
+- Responsive design
 
 ## Nice to have
-- Responsive design
+- Good sense of design 👌🏾
 
 ## What we're looking for
 - Using high-quality existing libraries or small amounts of custom code
