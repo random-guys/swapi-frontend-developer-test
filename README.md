@@ -32,4 +32,7 @@ The following items will earn you bonus points. They are not requirements, the c
 - Use Vue which is the preferred framework
 - Include animations & micro-interactions 👌🏾
 
+## Time Duration
+Maximum of 4 days
+
 Finally, we'd like to say *Good luck! And have fun!*
