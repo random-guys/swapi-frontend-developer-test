@@ -1,5 +1,9 @@
 # Front-end Developer Test
-Using either Vue (preferably) or React framework, build a star wars directory using [SWAPI](https://swapi.co/), which has all api endpoints required for the applicatoion.
+Using either Vue (preferably) or React framework, build a star wars directory using [SWAPI](https://swapi.co/), which has all api endpoints required for the application.
+
+## Website layout
+Layout files can be found [here](https://www.dropbox.com/sh/ndhyzrrkyzkzv5k/AACpahtQO02IZkUefUb6o6yxa?dl=0)
+
 
 ## Functional requirements
 - User can view a list of people (humans & robots), list item should contain full name, birth year and gender
@@ -33,6 +37,6 @@ The following items will earn you bonus points. They are not requirements, the c
 - Include animations & micro-interactions 👌🏾
 
 ## Time Duration
-Maximum of 4 days
+Maximum of 7 days
 
 Finally, we'd like to say *Good luck! And have fun!*
