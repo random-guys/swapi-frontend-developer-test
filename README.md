@@ -42,4 +42,13 @@ The following items will earn you bonus points. They are not requirements, the c
 ## Time Duration
 Maximum of 7 days
 
+## Submission
+
+When you feel you're ready to submit do please:
+
+- Share a link to your github repo as well as your live hosted site with a member of the product org team; or whoever first contacted you
+- include several screenshots of each of your pages in a separate `/screenshots` folder in the root of your repo
+- make sure your repo is set to public otherwise we won't be able to see all your hard work!
+
+
 Finally, we'd like to say *Good luck! And have fun!*
