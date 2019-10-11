@@ -1,3 +1,12 @@
+## How to start the server
+
+```bash
+# Run this line if it's the first time you try to build
+npm i
+
+npm run dev
+```
+
 # Front-end Developer Test
 Using either Vue (preferably) or React framework, build a star wars directory using [SWAPI](https://swapi.co/), which has all api endpoints required for the application.
 
