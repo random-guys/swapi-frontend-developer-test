@@ -1,0 +1,18 @@
+.ship {
+  margin-right:  -0.5rem;
+}
+.ship-text {
+  height: 100px;
+}
+.ship-read-more {
+  cursor: pointer;
+}
+@media screen and (max-width: 400px) {
+  .ship-text {
+    height: 50px;
+  }
+  .ship-read-more {
+    font-size: 0.8rem;
+  }
+}
+

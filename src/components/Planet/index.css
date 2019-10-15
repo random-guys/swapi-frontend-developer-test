@@ -1,0 +1,32 @@
+.planet-link .planet-card {
+  position: relative;
+  transform: scale(1);
+  transition: transform ease-in-out 300ms;
+}
+.planet-card .card-img-top {
+  border-radius: calc(0.25rem - 1px);
+}
+.planet {
+  position: absolute;
+  top: 75%;
+  left: 32%;
+  color: #d8d8d8;
+}
+.planet-title {
+  font-size: 1.5rem;
+}
+.planet-link {
+  cursor: pointer;
+}
+.planet-link:hover .planet-card {
+  -moz-transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+@media screen and (max-width: 400px) {
+  .planet-card,
+  .planet-card .card-img-top {
+    height: 160px;
+  }
+}

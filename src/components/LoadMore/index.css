@@ -1,0 +1,25 @@
+.load-more {
+  display: inline-flex;
+}
+.load-more__button {
+  width: 20rem;
+  height: 3rem;
+  border: solid 1px #d8d8d8;
+  background: #f2f2f2;
+}
+.load-more__button:hover {
+  background: #d8d8d8;
+}
+.hide-modal {
+  display: none;
+}
+.show-modal {
+  display: flex;
+}
+
+@media screen and (max-width: 400px) {
+  .load-more__button {
+    width: 14rem;
+    height: 2.2rem;
+  }
+}

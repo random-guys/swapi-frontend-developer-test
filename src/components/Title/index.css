@@ -1,0 +1,17 @@
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: #4e4e4e;
+}
+.title-border {
+  width: 100px;
+  margin: auto;
+  border-bottom: #4e4e4e solid 6px;
+}
+
+@media screen and (max-width: 400px) {
+  .title {
+    font-size: 1.5rem;
+  }
+}

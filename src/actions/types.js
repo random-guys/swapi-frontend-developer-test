@@ -1,0 +1,9 @@
+export const GET_SHIPS = 'GET_SHIPS';
+export const GET_CHARACTERS = 'GET_CHARACTERS';
+export const GET_PLANETS = 'GET_PLANETS';
+export const SET_LOADING = 'SET_LOADING';
+export const GET_SHIP = 'GET_SHIP';
+export const GET_PLANET = 'GET_PLANET';
+export const GET_CHARACTER = 'GET_CHARACTER';
+export const GET_ERROR = 'GET_ERROR';
+export const RESET_STATE = 'RESET_STATE';

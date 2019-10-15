@@ -1,0 +1,141 @@
+.banner {
+  background: url('https://res.cloudinary.com/free-spirit/image/upload/v1570701745/hero-banner.jpg') no-repeat scroll center;
+  background-size: cover;
+  color: #ffffff;
+}
+.banner-top {
+  height: 140px;
+}
+.banner-bottom {
+  height: calc(100% - 140px);
+}
+.banner-content {
+  display: inline-flex;
+  align-self: center;
+}
+.banner-title {
+  display: inline-block;
+  font-weight: 800;
+}
+.banner-text__wrapper {
+  width: 60%;
+}
+.banner-text {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #c0c0c0;
+}
+.title-box {
+  border-bottom: solid 2px #ffffff;
+}
+.banner-input__box {
+  width: 80%;
+  border-radius: 5%;
+}
+.banner-input__wrapper {
+  height: 60px;
+}
+.banner-input {
+  height: 100%;
+  background-color: #e9ecef;
+  border-left-color: #e9ecef;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+.banner-input:focus {
+  border-color: #e9ecef;
+  box-shadow: none;
+  background-color: #e9ecef;
+}
+.logo {
+  width: 120px;
+  height: auto;
+  object-fit: contain;
+}
+.section-wrapper {
+  padding: 0 6% !important;
+}
+
+.single-image__wrapper {
+  position: relative;
+}
+.single-image {
+  height: 300px;
+  object-fit: contain !important;
+}
+.single-image__title-box {
+  position: absolute;
+  top: 80%;
+  left: 10%;
+}
+.single-image__title {
+  height: 100%;
+}
+.single-content__text-box {
+  height: 600px;
+}
+.single-content__title {
+  margin: 3rem 0;
+}
+.single-content__text {
+  font-size: 1rem;
+  line-height: 2rem;
+}
+
+
+@media screen and (max-width: 400px) {
+  .banner-top {
+    height: 80px;
+  }
+  .banner-top div {
+    padding-left: 30px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .logo {
+    width: 90px;
+  }
+  .banner-bottom .logo {
+    width: 70px !important;
+  }
+  .banner-title {
+    font-size: 1.8rem;
+  }
+  .banner-text__wrapper {
+    width: 90%;
+  }
+  .banner-text {
+    font-size: 1rem;
+  }
+  .banner-input__box {
+    width: 90%;
+  }
+  .banner-input__wrapper {
+    height: 40px;
+  }
+  .banner-input {
+    font-size: 1rem;
+  }
+
+  .single-image__title-box {
+    top: 80%;
+  }
+  .single-image {
+    height: 150px;
+  }
+  .single-image__title {
+    font-size: 1.2rem;
+  }
+
+  .single-content__text-box {
+    height: 400px;
+  }
+  .single-content__title {
+    margin: 0 0 1rem 0;
+    font-size: 1.2rem;
+  }
+  .single-content__text {
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+  }
+}

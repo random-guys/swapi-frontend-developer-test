@@ -1,0 +1,14 @@
+.footer {
+  background: #c0c0c0;
+}
+.footer-text {
+  margin-block-end: 0;
+  margin-block-start: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 400px) {
+  .footer-text {
+    font-size: 0.7rem;
+  }
+}
