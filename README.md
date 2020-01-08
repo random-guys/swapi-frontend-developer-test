@@ -12,7 +12,7 @@ We've created a design for you to use to build your site. Layout files can be fo
 A single page application using either Vue (preferably) or React featuring:
 - A visually pleasing experience, you don’t have to be a designer but you must have put an effort into making this look good
 - A "componentized" approach, split your code into small building blocks, showcase your clean architecture skills.
-- CSS can be written using PostCSS, SASS, LESS or similar higher-level language
+- CSS should be written using a CSS preprocessor like SCSS, PostCSS, LESS or similar higher-level language
 - Responsive design
   
 ## Functional requirements
