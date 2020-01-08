@@ -37,6 +37,7 @@ A single page application using either Vue (preferably) or React featuring:
 ## Extra Bonus Points
 The following items will earn you bonus points. They are not requirements, the challenge is 100% completeable without them. 
 - Use Vue which is the preferred framework
+- Implement with a state management library like VueX or Redux
 - Include animations & micro-interactions 👌🏾
 
 ## Time Duration
