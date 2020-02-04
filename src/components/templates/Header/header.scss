@@ -1,0 +1,58 @@
+.header {
+  height: 600px;
+  width: 100%;
+  background-image: url(../../../assets/hero-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  @include responsive(tab) {
+    height: 530px;
+  }
+  @include responsive(phone) {
+    height: 460px;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 20px;
+
+    &-logo {
+      display: flex;
+      align-items: center;
+      border-bottom: 3px solid $colorWhite;
+      padding-bottom: 20px;
+
+      &-img {
+        height: 75px;
+        margin-right: 20px;
+
+        @include responsive(tab) {
+          height: 50px;
+        }
+      }
+
+      &-text {
+        color: $colorWhite;
+        font-size: 55px;
+        font-weight: 600;
+        margin: 0;
+        @include responsive(tab) {
+          font-size: 36px;
+        }
+      }
+    }
+
+    &-desc {
+      color: $colorGrey;
+      font-size: 30px;
+      max-width: 555px;
+      width: 100%;
+      text-align: center;
+      @include responsive(tab) {
+        font-size: 25px;
+      }
+    }
+  }
+}

@@ -1,14 +1,15 @@
-import React from 'react';
+import Home from './Pages/Home';
+import NotFound from './Pages/NotFound';
 
 export default [
   {
     name: 'Home',
     path: '/',
-    component: () => <div>HOME</div>
+    component: Home
   },
   {
     name: 'Not Found',
     path: '*',
-    component: () => <div>Not Found</div>
+    component: () => NotFound
   }
 ];
