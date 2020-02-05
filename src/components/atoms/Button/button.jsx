@@ -8,7 +8,8 @@ const Button = ({ className, children }) => (
 );
 
 Button.propTypes = {
-  className: PropTypes.string.isRequired
+  className: PropTypes.string.isRequired,
+  children: PropTypes.object.isRequired
 };
 
 export default Button;

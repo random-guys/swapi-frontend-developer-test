@@ -7,9 +7,11 @@
 @import './components/molecules/Nav/nav.scss';
 @import './components/molecules/Search/search.scss';
 @import './components/molecules/StarwarsCard/StarwarsCard.scss';
+@import './components/molecules/PlanetCard/planetCard.scss';
 
 @import './components/templates/Header/header.scss';
 @import './components/templates/Starships/starships.scss';
+@import './components/templates/Planets/planets.scss';
 
 * {
   margin: 0;

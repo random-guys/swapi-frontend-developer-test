@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const ContentTitle = ({ title }) => (
   <div className="content">
@@ -6,5 +7,9 @@ const ContentTitle = ({ title }) => (
     <div className="content-line"></div>
   </div>
 );
+
+ContentTitle.propTypes = {
+  title: PropTypes.string.isRequired
+};
 
 export default ContentTitle;

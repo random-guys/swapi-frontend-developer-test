@@ -1,0 +1,34 @@
+.planets {
+  max-width: 1000px;
+  padding: 20px;
+  margin: 0 auto;
+  @include responsive(tabBig) {
+    max-width: 670px;
+  }
+  @include responsive(tab) {
+    max-width: 625px;
+  }
+  @include responsive(phone) {
+    max-width: 320px;
+  }
+}
+
+.slick-dots {
+  bottom: -40px !important;
+
+  li.slick-active button {
+    &::before {
+      background-color: $colorText;
+      border-color: $colorText;
+    }
+  }
+
+  li button {
+    &::before {
+      content: '' !important;
+      border: 1px solid $colorText;
+      border-radius: 100%;
+      background-color: transparent;
+    }
+  }
+}

@@ -10,4 +10,10 @@
       @content;
     }
   }
+
+  @if $breakpoint==tabBig {
+    @media (max-width: 965px) {
+      @content;
+    }
+  }
 }
