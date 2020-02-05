@@ -1,12 +1,12 @@
 @mixin responsive($breakpoint) {
   @if $breakpoint==phone {
-    @media (max-width: 450px) {
+    @media (max-width: 540px) {
       @content;
     }
   }
 
   @if $breakpoint==tab {
-    @media (max-width: 750px) {
+    @media (max-width: 760px) {
       @content;
     }
   }

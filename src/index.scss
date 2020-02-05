@@ -1,21 +1,25 @@
 @import './variables.scss';
 @import './mixins.scss';
 
-@import './components/atoms/Button/button.scss';
-@import './components/atoms/Input/input.scss';
+@import './components/atoms/ContentTitle/contentTitle.scss';
 @import './components/atoms/Logo/logo.scss';
 
 @import './components/molecules/Nav/nav.scss';
 @import './components/molecules/Search/search.scss';
+@import './components/molecules/StarwarsCard/StarwarsCard.scss';
 
 @import './components/templates/Header/header.scss';
+@import './components/templates/Starships/starships.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 html,
 body,
 #root {
   box-sizing: border-box;
   height: 100%;
-  margin: 0;
-  padding: 0;
   overflow-x: hidden;
 }

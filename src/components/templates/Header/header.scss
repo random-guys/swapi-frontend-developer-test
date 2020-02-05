@@ -50,6 +50,7 @@
       max-width: 555px;
       width: 100%;
       text-align: center;
+      margin: 20px 0;
       @include responsive(tab) {
         font-size: 25px;
       }
