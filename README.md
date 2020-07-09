@@ -2,7 +2,7 @@
 Using either Vue (preferably) or React framework, build a star wars directory using [SWAPI](https://swapi.dev/), which has all api endpoints required for the application.
 
 ## Website layout
-We've created a design for you to use to build your site. Layout files can be found [here](https://scene.zeplin.io/project/5d6d23a6683e59b8beab5dcd)
+We've created a design for you to use to build your site. Layout files can be found [here](https://scene.zeplin.io/project/5f071070da39325c4cbbce53)
 - this should only serve as a guide for what your final site should try as much as possible to replicate
 - the images visible in the design above for Characters/Starships/Planets cannot (unfortunately) be gotten from the [SWAPI](https://swapi.co/), as it doesn't provide images in it's responses. Because of this, we've provided an assets folder with images you can use instead. 
 
